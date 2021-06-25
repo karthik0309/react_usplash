@@ -26,4 +26,9 @@ h1{
 }
 .success{
     color: rgb(69,169,104);
+    font-weight: bolder;
+}
+.success__link{
+    color: teal;
+    font-weight: bolder;
 }

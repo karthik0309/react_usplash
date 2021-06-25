@@ -24,4 +24,12 @@
     .card__container{
         margin-left: 1%;
     }   
+    .search__container{
+        width: 90%;
+    }
+}
+
+.err{
+    color: red;
+    font-size: larger;
 }

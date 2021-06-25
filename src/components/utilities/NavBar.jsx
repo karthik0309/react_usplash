@@ -4,26 +4,24 @@ import classes from '../../css/NavBar.module.css'
 
 const NavBar = () => {
     const [showSideBar,setShowSideBar]  = useState(false);
+    const [navClass,setNavClass]=useState([classes.nav__items]);
 
-    let navClass=[]
-    navClass.push(classes.nav__items)
     const handleClick=()=>{
         if(showSideBar===false){
-            navClass.push(classes.active)
+            setNavClass([...navClass ,classes.active])
         }else if(showSideBar===true){
-            navClass=[classes.nav__items]
+            setNavClass([classes.nav__items])
         }
-        console.log(showSideBar)
         setShowSideBar(!showSideBar)
     }
-    console.log(navClass)
+
     return (
         <div className={classes.navbar}>
             <h2 className={classes.title}>PngSearch</h2>
             <div className={navClass.join(" ")}>
-                <NavItem to="/" name="Home"/>
-                <NavItem to="/Search" name="Search"/>
-                <NavItem to="/AboutUs" name="About us"/>
+                <NavItem to="/" name="Home" onClick={handleClick}/>
+                <NavItem to="/Search" name="Search" onClick={handleClick}/>
+                <NavItem to="/AboutUs" name="About us" onClick={handleClick}/>
             </div>
             <div className={classes.hamburger} onClick={handleClick}>
                 <div className={classes.h1}></div>

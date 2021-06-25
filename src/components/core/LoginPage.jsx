@@ -21,8 +21,14 @@ const LoginPage = () => {
         return regEx.test(email);
     }
     const validatePassword=(password)=>{
-        let regEx=/^[A-Za-z0-9]+$/;
-        return regEx.test(password)
+        if( password.match(/[a-z]/g) &&
+            password.match(/[A-Z]/g) &&
+            password.match(/[0-9]/g) &&
+            password.match(/[^a-zA-Z\d]/g) &&
+            password.length>5){
+                return true
+        }
+        return false
     }
 
     const handleInputChange=(name)=>(event)=>{
@@ -40,7 +46,7 @@ const LoginPage = () => {
             setUserDetails({...userDetails,error:'Enter valid EmailId'})
             return;
         }if(!validatePassword(password) || password.length<=3){
-            setUserDetails({...userDetails,error:'Password should be of lenght >3'})
+            setUserDetails({...userDetails,error:'Password should be alphanumeric and of lenght >3'})
             return;
         }
 
@@ -55,7 +61,10 @@ const LoginPage = () => {
             <h1>Login</h1>
            
             {error!=='' ? <p className={classes.para}>{error}</p> :null}
-            {success ? <p className={classes.success}>Successfully <Link to="/Search">Click here</Link> </p> : null}
+            {success ? <p className={classes.success}>
+                            Successfully <Link to="/Search" className={classes.success__link}>Click here</Link> 
+                        </p>
+                    : null}
            
             <form className={classes.input__form}>
                 <Input type="text" 

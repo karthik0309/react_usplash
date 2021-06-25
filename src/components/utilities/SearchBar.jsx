@@ -8,6 +8,7 @@ import classes from '../../css/SearchBar.module.css'
 const SearchBar = () => {
     const [searchInput,setSearchInput]=useState('')
     const [images,setImages]=useState([])
+    const [error,setError]=useState('')
 
     const handleInputChange=(event)=>{
         setSearchInput(event.target.value)
@@ -23,13 +24,14 @@ const SearchBar = () => {
         }).then(res=>{
             setImages(res.data.results)
         }).catch((err)=>{
-            console.log(err)
+            setError(err)
         })
     }
 
     return (
         <div className={classes.main__container}>
             <div className={classes.search__container}>
+                {error!=='' ? <p className={classes.err}>{error}</p> : null}
                 <Input 
                 placeholder="Enter photos to be searched"
                 onChange={e=>(handleInputChange(e))}

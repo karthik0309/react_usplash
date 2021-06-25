@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 10;
+    background: rgb(67,78,92);
 }
 .title{
     color: white;
@@ -50,12 +52,13 @@
         padding: 20px;
         width: 100%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-out;
+        transition: transform 0.5s;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         z-index: 10;
+        font-size: larger;
     }
     .hamburger{
         display: block;
