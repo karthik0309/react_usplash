@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react_usplash/static/css/main.1b46bd08.chunk.css",
+    "main.js": "/react_usplash/static/js/main.611b7478.chunk.js",
+    "main.js.map": "/react_usplash/static/js/main.611b7478.chunk.js.map",
+    "runtime-main.js": "/react_usplash/static/js/runtime-main.4cd2dbf7.js",
+    "runtime-main.js.map": "/react_usplash/static/js/runtime-main.4cd2dbf7.js.map",
+    "static/js/2.6b0b1d54.chunk.js": "/react_usplash/static/js/2.6b0b1d54.chunk.js",
+    "static/js/2.6b0b1d54.chunk.js.map": "/react_usplash/static/js/2.6b0b1d54.chunk.js.map",
+    "static/js/3.55c4b743.chunk.js": "/react_usplash/static/js/3.55c4b743.chunk.js",
+    "static/js/3.55c4b743.chunk.js.map": "/react_usplash/static/js/3.55c4b743.chunk.js.map",
+    "static/css/4.c6b72897.chunk.css": "/react_usplash/static/css/4.c6b72897.chunk.css",
+    "static/js/4.ec73cb4f.chunk.js": "/react_usplash/static/js/4.ec73cb4f.chunk.js",
+    "static/js/4.ec73cb4f.chunk.js.map": "/react_usplash/static/js/4.ec73cb4f.chunk.js.map",
+    "static/css/5.94464c7b.chunk.css": "/react_usplash/static/css/5.94464c7b.chunk.css",
+    "static/js/5.fae42fd0.chunk.js": "/react_usplash/static/js/5.fae42fd0.chunk.js",
+    "static/js/5.fae42fd0.chunk.js.map": "/react_usplash/static/js/5.fae42fd0.chunk.js.map",
+    "static/css/6.4b081474.chunk.css": "/react_usplash/static/css/6.4b081474.chunk.css",
+    "static/js/6.1ce268f4.chunk.js": "/react_usplash/static/js/6.1ce268f4.chunk.js",
+    "static/js/6.1ce268f4.chunk.js.map": "/react_usplash/static/js/6.1ce268f4.chunk.js.map",
+    "static/js/7.7acf9662.chunk.js": "/react_usplash/static/js/7.7acf9662.chunk.js",
+    "static/js/7.7acf9662.chunk.js.map": "/react_usplash/static/js/7.7acf9662.chunk.js.map",
+    "index.html": "/react_usplash/index.html",
+    "static/css/4.c6b72897.chunk.css.map": "/react_usplash/static/css/4.c6b72897.chunk.css.map",
+    "static/css/5.94464c7b.chunk.css.map": "/react_usplash/static/css/5.94464c7b.chunk.css.map",
+    "static/css/6.4b081474.chunk.css.map": "/react_usplash/static/css/6.4b081474.chunk.css.map",
+    "static/css/main.1b46bd08.chunk.css.map": "/react_usplash/static/css/main.1b46bd08.chunk.css.map",
+    "static/js/3.55c4b743.chunk.js.LICENSE.txt": "/react_usplash/static/js/3.55c4b743.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cd2dbf7.js",
+    "static/js/3.55c4b743.chunk.js",
+    "static/css/main.1b46bd08.chunk.css",
+    "static/js/main.611b7478.chunk.js"
+  ]
+}
