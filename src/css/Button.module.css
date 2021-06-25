@@ -1,0 +1,13 @@
+.input__button{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background: rgb(69,169,104);
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+.input__button:hover{
+    transform: scale(1.1);
+}

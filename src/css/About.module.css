@@ -1,0 +1,25 @@
+.main__container{
+    width: 60%;
+    color: white;
+    background: rgb(78,87,100);
+    height: 50%;
+    border-radius: 12px;
+    padding: 16px;
+    max-height: fit-content;
+}
+.header{
+    margin-bottom: 10px;
+}
+.para{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+@media(max-width:600px){
+    .main__container{
+        height: 65%;
+        width: 75%;
+    }
+    .para{
+        font-size: medium;
+    }
+}
