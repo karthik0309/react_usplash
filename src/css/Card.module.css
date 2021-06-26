@@ -1,7 +1,7 @@
 .main__container{
     background-color: rgb(78,87,100);
     width: 350px;
-    height: 400px;
+    height: 300px;
     border-radius: 8px;
     margin: 1%;
     box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
@@ -28,13 +28,13 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: translateY(-5px);
 }
-.download{
+.info{
     position: absolute;
     bottom: 0;
     right: 0;
     margin: 3%;
 }
-.download__button{
+.info__button{
     outline: none;
     border: none;
     width: 120px;
@@ -45,8 +45,14 @@
     border-radius: 6px;
     font-size: large;
 }
-.download__button:hover{
+.info__button:hover{
     background: rgb(69,169,104);
     color: white;
     transform: scale(1.1);
+}
+
+@media(max-width:600px){
+    .main__container{
+        width: 300px;
+    }
 }

@@ -9,9 +9,9 @@ const Card = ({title,description,src,download}) => {
                 <h2 className={classes.title}>{title}</h2>
                 <p>{description}</p>
             </div>
-            <a href={download} download className={classes.download}>
-                <button className={classes.download__button}>Download</button>
-            </a>
+            <div className={classes.info}>
+                <button className={classes.info__button}>More info</button>
+            </div>
         </div>
     )
 }

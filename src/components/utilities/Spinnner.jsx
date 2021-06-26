@@ -3,7 +3,11 @@ import classes from '../../css/Spinner.module.css'
 
 const Spinnner = () => {
     return (
-        <div className={classes.spinner}></div>
+        <div className={classes.main__container}>
+            <div className={classes.spinner}>
+            
+            </div>
+        </div>
     )
 }
 

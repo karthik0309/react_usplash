@@ -1,3 +1,11 @@
+.main__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(67,78,92);
+}
 .spinner{
     height:40px;
     width:40px;
@@ -5,8 +13,9 @@
     border:8px solid #f3f3f3;
     border-top:8px solid #45a968;
     animation: spin 2s linear infinite;
-    @keyframes spin{
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

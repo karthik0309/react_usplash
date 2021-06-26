@@ -23,11 +23,11 @@ const SearchBar = () => {
             }
         }).then(res=>{
             setImages(res.data.results)
+            console.log(res)
         }).catch((err)=>{
             setError(err)
         })
     }
-
     return (
         <div className={classes.main__container}>
             <div className={classes.search__container}>

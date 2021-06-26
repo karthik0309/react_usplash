@@ -22,7 +22,9 @@
 }
 @media(max-width:600px){
     .card__container{
-        margin-left: 1%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
     }   
     .search__container{
         width: 90%;
