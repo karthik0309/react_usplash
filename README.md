@@ -2,7 +2,7 @@
 
 - PngSearch is an application where you can search and download all the images at one place.You can download and search thousand of images for free
 
-- Demo (https://momentum-dashboard.netlify.app/)
+- Demo (https://karthik-react-unsplash.netlify.app/)
 
 ## Login page
 ### Login page
